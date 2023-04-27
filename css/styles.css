@@ -1,0 +1,28 @@
+:root {
+  --roxo: #4650BD;
+  --verde: #008364;
+  --verde-escuro: #304968;
+  --verde-claro: #36C1A0;
+  --lilas: #B6BCFF;
+  --branco: #fff;
+
+  --gradiente-boreal: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+
+  --fonte-texto: 'Raleway', sans-serif;
+  --fonte-titulo: 'Calistoga', cursive;
+}
+
+body {
+  font-family: var(--fonte-texto);
+  background: var(--gradiente-boreal);
+  min-height: 100vh;
+}
+
+.titulo-secundario {
+  font-family: var(--fonte-titulo);
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  color: var(--branco);
+  line-height: 2.5rem;
+}

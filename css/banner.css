@@ -1,0 +1,49 @@
+.banner {
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner__homepage {
+  background-image: url(../assets/Mobile/1\ -\ Banner\ -\ Homepage.png);
+}
+
+.banner h1 {
+  font-family: var(--fonte-titulo);
+  color: var(--branco);
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  width: 300px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+    height: 384px;
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+    width: 600px;
+    line-height: 4rem;
+  }
+
+  .banner__homepage {
+    background-image: url(../assets/Desktop/1\ -\ Banner\ -\ homepage.png);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .banner {
+    height: 407px;
+  }
+
+  .banner h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+}
