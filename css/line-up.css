@@ -1,6 +1,7 @@
 .line-up {
     width: 95%;
     margin: auto;
+    text-align: center;
 }
 
 .line-up__tarja-datas {
@@ -23,9 +24,13 @@
     font-weight: 700;
     display: flex;
     justify-content: center;
-    /* column-gap: 1rem; */
+    column-gap: 1rem;
     flex-wrap: wrap;
     line-height: 5rem;
+}
+
+.line-up__lista li {
+    flex-wrap: nowrap;
 }
 
 .lista-1 {
