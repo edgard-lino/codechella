@@ -53,10 +53,16 @@
   margin: 2rem 0;
 }
 
+.line-up__tarja-datas__linha {
+  background-color: var(--verde-escuro);
+  height: 1px;
+  flex-grow: 1;
+}
+
 .line-up__lista {
   font-family: var(--fonte-texto);
   color: var(--branco);
-  font-weight: 500;
+  font-weight: 700;
   display: flex;
   justify-content: center;
   column-gap: 1.5rem;
@@ -80,6 +86,10 @@
   font-size: 2rem;
 }
 
+.line-up__lista li {
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .datas__imagem {
     background-image: url(../assets/Desktop/1\ -\ Imagem\ -\ homepage1.png);
@@ -88,12 +98,7 @@
     height: 381px;
   }
 
-  .line-up__tarja-datas__linha {
-    background-color: var(--verde-escuro);
-    height: 1px;
-    
-    flex-grow: 1;
-  }
+  
 }
 
 @media screen and (min-width: 1440px) {
