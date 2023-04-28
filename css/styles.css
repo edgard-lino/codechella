@@ -13,7 +13,6 @@
 }
 
 body {
-  background: var(--gradiente-boreal);
   font-family: var(--fonte-texto);
   min-height: 100vh;
 }
