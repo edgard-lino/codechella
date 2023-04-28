@@ -65,25 +65,27 @@
   font-weight: 700;
   display: flex;
   justify-content: center;
-  column-gap: 1.5rem;
+  column-gap: 2rem;
+  
   flex-wrap: wrap;
+  
   line-height: 5rem;
 }
 
 .lista-1 {
-  font-size: 3.5rem;
-}
-
-.lista-2 {
   font-size: 3rem;
 }
 
-.lista-3 {
+.lista-2 {
   font-size: 2.5rem;
 }
 
-.lista-4 {
+.lista-3 {
   font-size: 2rem;
+}
+
+.lista-4 {
+  font-size: 1.5rem;
 }
 
 .line-up__lista li {
