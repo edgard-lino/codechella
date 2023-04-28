@@ -25,4 +25,36 @@ body {
   text-align: center;
   color: var(--branco);
   line-height: 2.5rem;
+  padding: 2rem 0;
 }
+
+.texto {
+  color: var(--branco);
+  font-family: var(--fonte-texto);
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+}
+
+.botao {
+  background-color: var(--roxo);
+  border-radius: 20px;
+  display: flex;
+  width: 250px;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  text-decoration: none;
+  box-shadow: 4px 4px 0 0 #000000;
+}
+
+.botao p {
+  font-family: var(--fonte-texto);
+  font-size: 1.2;
+  display: inline-block;
+  font-weight: 700;
+  color: var(--branco);
+  
+}
+
