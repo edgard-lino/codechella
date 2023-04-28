@@ -13,14 +13,14 @@
 }
 
 body {
-  font-family: var(--fonte-texto);
   background: var(--gradiente-boreal);
+  font-family: var(--fonte-texto);
   min-height: 100vh;
 }
 
 .titulo-secundario {
-  font-family: var(--fonte-titulo);
   color: var(--branco);
+  font-family: var(--fonte-titulo);
   font-size: 3rem;
   font-weight: 400;
   
@@ -28,14 +28,13 @@ body {
 }
 
 .titulo-terciario {
-  font-family: var(--fonte-titulo);
-  color: var(--branco);
-  font-weight: 400;
-  font-size: 2rem;
-  margin: 2rem 0;
   background-color: var(--verde);
+  color: var(--branco);
+  font-family: var(--fonte-titulo);
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 2rem 0;
   padding: 1rem;
-  margin: auto;
   display: inline-block;
   text-align: center;
 }
