@@ -5,6 +5,7 @@
     justify-content: center;
     width: 95%;
     margin: auto;
+    text-align: center;
 }
 
 .line-up__tarja-datas {
@@ -48,6 +49,6 @@
     font-size: 1.5rem;
 }
 
-.line-up__lista li {
+/* .line-up li {
     text-align: center;
-}
+} */

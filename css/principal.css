@@ -37,18 +37,6 @@
   text-align: center;
 }
 
-
-
-/* LINE-UP */
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 768px) {
   .datas__imagem {
     background-image: url(../assets/Desktop/1\ -\ Imagem\ -\ homepage1.png);
@@ -56,8 +44,6 @@
     max-width: 609px;
     height: 381px;
   }
-
-  
 }
 
 @media screen and (min-width: 1440px) {
