@@ -1,4 +1,5 @@
 .banner {
+  background-color: var(--verde-escuro);
   background-repeat: no-repeat;
   background-size:cover;
   height: 270px;
