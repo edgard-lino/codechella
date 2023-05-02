@@ -1,5 +1,4 @@
 .homepage {
-  min-height: 80vh;
   padding-bottom: 2rem;
   background: var(--gradiente-boreal);
 }
@@ -51,7 +50,6 @@
 @media screen and (min-width: 768px) {
   .datas__imagem {
     background-image: url(../assets/Desktop/homepage__1.png);
-    height: 381px;
     max-width: 609px;
     min-width: 609px;
   }
