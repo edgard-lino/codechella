@@ -1,25 +1,41 @@
 .banner {
+  align-items: center;
   background-color: var(--verde-escuro);
   background-repeat: no-repeat;
   background-size:cover;
-  height: 270px;
   display: flex;
+  height: 270px;
   justify-content: center;
-  align-items: center;
 }
 
 .banner__homepage {
-  background-image: url(../assets/Mobile/1\ -\ Banner\ -\ Homepage.png);
+  background-image: url(../assets/Mobile/banner__homepage.png);
+}
+
+.banner__experiencia {
+  background-image: url(../assets/Mobile/banner__experiencia.png);
+}
+
+.banner__informacoes {
+  background-image: url(../assets/Mobile/banner__informacoes.png);
+}
+
+.banner__ingresso {
+  background-image: url(../assets/Mobile/banner__ingresso.png);
+}
+
+.banner__setores {
+  background-image: url(../assets/Mobile/banner__setores.png);
 }
 
 .banner h1 {
-  font-family: var(--fonte-titulo);
   color: var(--branco);
+  font-family: var(--fonte-titulo);
   font-size: 2rem;
   font-weight: 400;
   line-height: 3rem;
-  width: 300px;
   text-align: center;
+  width: 300px;
 }
 
 @media screen and (min-width: 768px) {
@@ -29,12 +45,28 @@
   
   .banner h1 {
     font-size: 3rem;
-    width: 600px;
     line-height: 4rem;
+    width: 600px;
   }
 
   .banner__homepage {
-    background-image: url(../assets/Desktop/1\ -\ Banner\ -\ homepage.png);
+    background-image: url(../assets/Desktop/banner__homepage.png);
+  }
+
+  .banner__experiencia {
+    background-image: url(../assets/Desktop/banner__experiencia.png);
+  }
+  
+  .banner__informacoes {
+    background-image: url(../assets/Desktop/banner__informacoes.png);
+  }
+  
+  .banner__ingresso {
+    background-image: url(../assets/Desktop/banner__ingresso.png);
+  }
+  
+  .banner__setores {
+    background-image: url(../assets/Desktop/banner__setores.png);
   }
 }
 

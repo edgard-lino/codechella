@@ -3,58 +3,59 @@
 }
 
 .rodape__container {
-  width: 90%;
-  margin: auto;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: auto;
   padding: 2rem 0;
+  width: 90%;
 }
 
 .rodape__imagem-e-redes-sociais {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .rodape__logo {
-  width: 234px;
   padding-bottom: 1rem;
+  width: 234px;
 }
 
 .rodape__redes-sociais p {
-  font-size: 1.2rem;
   color: var(--branco);
+  font-size: 1.2rem;
   font-weight: 500;
   padding-bottom: 1rem;
 }
 
 .rodape__lista-redes-sociais {
   display: flex;
-  justify-content: center;
   gap: 0.5rem;
+  justify-content: center;
   padding-bottom: 2rem;
 }
 
 .rodape__creditos {
+  align-items: center;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  align-items: center;
 }
 
 .rodape__creditos p {
-  font-size: 1.2rem;
   color: var(--branco);
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
 @media screen and (min-width: 768px) {
   .rodape__redes-sociais {
+    align-items: center;
     display: flex;
     gap: 1rem;
-    align-items: center;
   }
+
   .rodape__redes-sociais p {
     padding-bottom: 2rem;
   }
@@ -75,7 +76,7 @@
   }
 
   .rodape__creditos {
-    flex-direction: column;
     align-items: baseline;
+    flex-direction: column;
   }
 }

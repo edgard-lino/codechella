@@ -4,12 +4,12 @@
 }
 
 .cabecalho__container {
-  width: 90%;
-  margin: auto;
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  margin: auto;
   padding: 2rem 0;
+  width: 90%;
 }
 
 #checkbox {
@@ -17,23 +17,23 @@
 }
 
 #checkbox:checked ~ .cabecalho__menu-lista {
+  background-color: var(--roxo);
   display: flex;
   flex-direction: column;
-  position: absolute;
   gap: 0.5rem;
+  padding: 0 1rem;
+  position: absolute;
   right: 0;
   top: 100%;
-  padding: 0 1rem;
-  background-color: var(--roxo);
 }
 
 .cabecalho__menu {
   background-image: url(../assets/menu.svg);
-  background-repeat: no-repeat;
   background-position: center;
-  width: 25px;
-  height: 25px;
+  background-repeat: no-repeat;
   display: inline-block;
+  height: 25px;
+  width: 25px;
 }
 
 .cabecalho__menu-lista {
@@ -41,11 +41,11 @@
 }
 
 .cabecalho__menu-item {
-  text-align: center; 
   background-image: url(../assets/linha.svg);
   background-position: bottom;
   background-repeat: no-repeat;
   padding: 1.5rem 0;
+  text-align: center; 
 }
 
 .cabecalho__menu-item:last-child {
@@ -53,11 +53,11 @@
 }
 
 .cabecalho__menu-item a {
-  text-decoration: none;
   color: var(--branco);
   font-family: var(--fonte-textos);
   font-size: 1.2rem;
   font-weight: 700;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -70,9 +70,9 @@
   }
 
   .cabecalho__menu-lista {
-    position: relative;
     display: flex;
     gap: 2rem;
+    position: relative;
   }
 
   .cabecalho__menu-item {
