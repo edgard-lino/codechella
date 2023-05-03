@@ -1,7 +1,7 @@
 .experiencia__principal {
+    background: var(--gradiente-boreal);
     min-height: 80vh;
     padding-bottom: 2rem;
-    background: var(--gradiente-boreal);
   }
 
 .experiencia {
@@ -16,11 +16,11 @@
 
 
 .experiencia__imagem {
-  height: 381px;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
+  height: 381px;
   width: 90%;
 }
 
@@ -29,15 +29,15 @@
 }
 
 .imagem__02 {
-  background-image: url(../assets/Mobile/experiencia__1.png);
+  background-image: url(../assets/Mobile/experiencia__2.png);
 }
 
 .imagem__03 {
   background-image: url(../assets/Mobile/experiencia__3.png);
 }
 
-.experiencia__conteudo {
-
+.experiencia__conteudo .texto {
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -81,5 +81,13 @@
 
   .experiencia__conteudo {
     flex-grow: 1;
+  }
+
+  .experiencia__conteudo .texto, .experiencia__conteudo .titulo-quaternario {
+    text-align: left;
+  }
+
+  .experiencia:nth-child(2) .experiencia__conteudo .texto, .experiencia:nth-child(2) .experiencia__conteudo .titulo-quaternario {
+    text-align: right;
   }
 }

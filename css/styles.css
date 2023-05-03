@@ -4,6 +4,7 @@
 @import url("../css/homepage.css");
 @import url("../css/rodape.css");
 @import url("../css/experiencia.css");
+@import url("../css/setores.css");
 
 :root {
   --branco: #fff;
@@ -12,6 +13,13 @@
   --verde: #008364;
   --verde-claro: #36C1A0;
   --verde-escuro: #304968;
+
+  --pista-premium : #0E7DF1;
+  --pista-comum: #FE016E;
+  --cadeiras-terreo: #01A89E;
+  --cadeiras-superiores: #3F51B5;
+  --rampas: #0E7DF1;
+
 
   --gradiente-boreal: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
 
@@ -46,9 +54,9 @@ body {
 
 .titulo-quaternario {
   color: var(--branco);
-  font-family: var(--fonte-titulo);
+  font-family: var(--fonte-texto);
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 2.5rem;
   padding: 2rem 0;
   text-align: center;
