@@ -5,15 +5,22 @@
 }
 
 .mapa {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 95%;
 }
 
 .mapa__imagem {
-
+    width: 100%;
 }
 
 .mapa__legenda {
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
 }
 
 .mapa__legenda ul {
@@ -21,13 +28,67 @@
 }
 
 .mapa__legenda li {
-    
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   padding-bottom: 2rem;
+}
+
+.mapa__legenda li:nth-child(1) div {
+    background-color: var(--pista-premium);
+}
+
+.mapa__legenda li:nth-child(2) div {
+    background-color: var(--pista-comum);
+}
+
+.mapa__legenda li:nth-child(3) div {
+    background-color: var(--cadeiras-terreo);
+}
+
+.mapa__legenda li:nth-child(4) div {
+    background-color: var(--cadeiras-superiores);
+}
+
+.mapa__legenda li:nth-child(5) div {
+    background-color: var(--rampas);
 }
 
 .mapa__legenda div {
-    
+    display: inline-block;
+    height: 50px;
+    width: 50px;
 }
 
-.mapa__legenda p {
-    
+/* DETALHES */
+.detalhes {
+    width: 90%;
+}
+
+.detalhes__container {}
+
+.detalhes__imagem {}
+
+.detalhes__imagem__01 {}
+
+.detalhes__imagem__02 {}
+
+.detalhes__imagem__03 {}
+
+.detalhes__conteudo {}
+
+
+@media screen and (min-width: 768px) {
+    .mapa__imagem {
+        width: 648px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .mapa {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
+    }
 }
