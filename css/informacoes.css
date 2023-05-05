@@ -2,7 +2,6 @@
     background: var(--gradiente-boreal);
     min-height: 80vh;
     padding-bottom: 2rem;
-    
 }
 
 .informacoes__titulo {
@@ -16,6 +15,10 @@
 .informacoes__conteudo {
     width: 95%;
     margin: 2rem auto;
+}
+
+.informacoes__conteudo:hover .informacoes__resposta {
+    display: inline-block;
 }
 
 .informacoes__pergunta {
@@ -42,11 +45,12 @@
 }
 
 .informacoes__resposta {
+    display: none;
     background-color: var(--azul-claro);
+    
 }
 
 .informacoes__resposta__texto {
-    
     font-family: var(--fonte-texto);
     font-size: 1.6rem;
     font-weight: 500;
