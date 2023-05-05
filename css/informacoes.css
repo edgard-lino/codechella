@@ -1,0 +1,68 @@
+.informacoes__principal {
+    background: var(--gradiente-boreal);
+    min-height: 80vh;
+    padding-bottom: 2rem;
+    
+}
+
+.informacoes__titulo {
+    font-family: var(--fonte-titulo);
+    font-size: 2rem;
+    text-align: center;
+    color: var(--branco);
+    padding: 2rem 0;
+}
+
+.informacoes__conteudo {
+    width: 95%;
+    margin: 2rem auto;
+}
+
+.informacoes__pergunta {
+    background-color: var(--roxo);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.informacoes__pergunta__texto {
+    font-family: var(--fonte-texto);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--branco);
+}
+
+.informacoes__pergunta__botao {
+    background-image: url(../assets/botao-para-baixo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+}
+
+.informacoes__resposta {
+    background-color: var(--azul-claro);
+}
+
+.informacoes__resposta__texto {
+    
+    font-family: var(--fonte-texto);
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--cinza);
+    padding: 1rem;
+    line-height: 2.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .informacoes__conteudo {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .informacoes__conteudo {
+        max-width: 1200px;
+    }
+}

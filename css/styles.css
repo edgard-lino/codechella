@@ -5,8 +5,10 @@
 @import url("../css/rodape.css");
 @import url("../css/experiencia.css");
 @import url("../css/setores.css");
+@import url("../css/informacoes.css");
 
 :root {
+  --azul-claro: #C8DEEF;
   --branco: #fff;
   --lilas: #B6BCFF;
   --roxo: #4650BD;
