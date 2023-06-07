@@ -35,7 +35,26 @@
     <h1>Garanta seu Ingresso</h1>
   </section>
 
-  <main>
+  <main class="ingresso__principal">
+    <h2 class="ingresso__titulo">Preencha o formulário a seguir:</h2>
+    <form class="ingresso__formulario">
+      <label for="nome">Nome Completo:</label>
+      <input type="text" name="nome" class="ingresso__input">
+      <label for="email">Email:</label>
+      <input type="email" name="email" class="ingresso__input">
+      <label for="tipo">Tipo do ingresso:</label>
+      <select name="tipo">
+        <option class="ingresso__tipo">Manhã</option>
+        <option class="ingresso__tipo">Tarde</option>
+        <option class="ingresso__tipo">Noite</option>
+    </select>
+      <label for="data-nas">Data de nascimento:</label>
+      <input type="date" name="data-nas" class="ingresso__input">
+    </form>
+    <a href="ingresso.html" class="botao ingresso__botao">
+      <p>Avançar</p>
+      <img src="./assets/flecha.svg" alt="Avançar">
+    </a>
 
   </main>
   
