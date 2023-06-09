@@ -39,19 +39,20 @@
     <h2 class="ingresso__titulo">Preencha o formulário a seguir:</h2>
     <form class="ingresso__formulario">
       <label for="nome">Nome Completo:</label>
-      <input type="text" name="nome" class="ingresso__input">
+      <input type="text" name="nome" class="ingresso__input" placeholder="Digite o seu nome">
       <label for="email">Email:</label>
-      <input type="email" name="email" class="ingresso__input">
+      <input type="email" name="email" class="ingresso__input" placeholder="Digite o seu email">
       <label for="tipo">Tipo do ingresso:</label>
-      <select name="tipo">
-        <option class="ingresso__tipo">Manhã</option>
-        <option class="ingresso__tipo">Tarde</option>
-        <option class="ingresso__tipo">Noite</option>
+      <select name="tipo" class="ingresso__select">
+        <option class="ingresso__tipo" value=" ">Selecione o tipo</option>
+        <option class="ingresso__tipo" value="manha">Manhã</option>
+        <option class="ingresso__tipo" value="tarde">Tarde</option>
+        <option class="ingresso__tipo" value="noite">Noite</option>
     </select>
       <label for="data-nas">Data de nascimento:</label>
       <input type="date" name="data-nas" class="ingresso__input">
     </form>
-    <a href="ingresso.html" class="botao ingresso__botao">
+    <a href="ingresso.html" class="ingresso__botao">
       <p>Avançar</p>
       <img src="./assets/flecha.svg" alt="Avançar">
     </a>

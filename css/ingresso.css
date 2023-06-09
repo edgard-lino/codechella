@@ -12,7 +12,7 @@
     font-size: 2rem;
     text-align: center;
     color: var(--branco);
-    padding: 2rem 0;
+    padding: 4rem 0;
     width: 80%;
     margin: auto;
 }
@@ -32,12 +32,38 @@
     font-weight: 700;
 }
 
-.ingresso__input, select {
+.ingresso__input, .ingresso__select {
     width: auto;
     height: 52px;
     padding: 1px 2px;
+
+    font-family: var(--fonte-texto);
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.ingresso__select {
+    height: 56px;
 }
 
 .ingresso__botao {
-    width: 100px;
-}
+    align-items: center;
+    background-color: var(--roxo);
+    border-radius: 20px;
+    box-shadow: 4px 4px 0 0 #000000;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem 0;
+    text-decoration: none;
+    width: 150px;
+  }
+  
+  .ingresso__botao p {
+    color: var(--branco);
+    display: inline-block;
+    font-family: var(--fonte-texto);
+    font-size: 1.2;
+    font-weight: 700;
+  }
