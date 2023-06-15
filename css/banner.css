@@ -24,6 +24,10 @@
   background-image: url(../assets/Mobile/banner__ingresso.png);
 }
 
+.banner__ingresso2 {
+  background-image: url(../assets/Mobile/banner__ingresso2.png);
+}
+
 .banner__setores {
   background-image: url(../assets/Mobile/banner__setores.png);
 }
@@ -63,6 +67,10 @@
   
   .banner__ingresso {
     background-image: url(../assets/Desktop/banner__ingresso.png);
+  }
+
+  .banner__ingresso2 {
+    background-image: url(../assets/Desktop/banner__ingresso2.png);
   }
   
   .banner__setores {

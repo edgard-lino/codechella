@@ -1,0 +1,25 @@
+.ingresso2__principal {
+    background: var(--gradiente-boreal);
+    min-height: 80vh;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.seu-ingresso__container {
+    background: var(--gradiente-boreal);
+    padding: 2rem;
+    width: 80%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+    margin-bottom: 4rem;
+}
+
+.seu-ingresso__cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seu-ingresso__dados {
+
+}
