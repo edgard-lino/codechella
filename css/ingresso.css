@@ -57,10 +57,6 @@
     margin-bottom: 2rem;
 }
 
-/* .ingresso__input:last-child {
-    max-width: 453px;
-} */
-
 .ingresso__botao {
     align-items: center;
     background-color: var(--roxo);
