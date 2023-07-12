@@ -4,7 +4,7 @@ Desafio da Alura.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Titulo do meu projeto**
+| :sparkles: Nome        | **Codechella**
 | :label: Tecnologias | html, css
 | :rocket: URL         | https://edgard-lino.github.io/codechella/
 | :fire: Desafio     | https://www.alura.com.br/challenges/front-end-6
