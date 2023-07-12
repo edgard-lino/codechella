@@ -6,7 +6,7 @@ Desafio da Alura.
 | -------------  | --- |
 | :sparkles: Nome        | **Titulo do meu projeto**
 | :label: Tecnologias | html, css
-| :rocket: URL         | https://url-deploy.com.br
+| :rocket: URL         | https://edgard-lino.github.io/codechella/
 | :fire: Desafio     | https://www.alura.com.br/challenges/front-end-6
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
