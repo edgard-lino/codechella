@@ -10,7 +10,7 @@ Desafio da Alura.
 | :fire: Desafio     | https://www.alura.com.br/challenges/front-end-6
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![][https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto](https://raw.githubusercontent.com/edgard-lino/codechella/main/codechella.jpg#vitrinedev)
 
 ## Detalhes do projeto
 
