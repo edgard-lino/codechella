@@ -60,6 +60,7 @@
 .ingresso__botao {
     align-items: center;
     background-color: var(--roxo);
+    border: none;
     border-radius: 20px;
     box-shadow: 4px 4px 0 0 #000000;
     display: flex;
@@ -68,6 +69,7 @@
     padding: 1rem 0;
     text-decoration: none;
     width: 150px;
+    margin: auto;
   }
 
   .ingresso__botao p {

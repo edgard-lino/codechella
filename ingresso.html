@@ -14,7 +14,6 @@
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./css/cabecalho.css">
   <link rel="stylesheet" href="./css/rodape.css">
-  <link rel="stylesheet" href="./css/principal.css">
   <link rel="stylesheet" href="./css/banner.css">
 </head>
 
@@ -40,35 +39,35 @@
 
   <main class="ingresso__principal">
     <h2 class="ingresso__titulo">Preencha o formulário a seguir:</h2>
-    <form class="ingresso__formulario">
+    <form class="ingresso__formulario" action="http://127.0.0.1:5500/ingresso2.html">
+      <!-- action="http://127.0.0.1:5500/ingresso2.html" -->
       <label for="nome">
         Nome Completo:
-        <input type="text" name="nome" class="ingresso__input" placeholder="Digite o seu nome">
+        <input type="text" name="nome" class="ingresso__input" id="ingresso__nome" placeholder="Digite o seu nome" required>
       </label>
       <label for="email">
         Email:
-        <input type="email" name="email" class="ingresso__input" placeholder="Digite o seu email">
+        <input type="email" name="email" class="ingresso__input" id="ingresso__email" placeholder="Digite o seu email" required>
       </label>
       <div>
         <label for="tipo">
           Tipo do ingresso:
-          <select name="tipo" class="ingresso__select">
-            <option class="ingresso__tipo" value=" ">Selecione o tipo</option>
-            <option class="ingresso__tipo" value="manha">Manhã</option>
+          <select name="tipo" class="ingresso__select" id="ingresso__tipo" required>
+            <option class="ingresso__tipo" value="manha" selected>Manhã</option>
             <option class="ingresso__tipo" value="tarde">Tarde</option>
             <option class="ingresso__tipo" value="noite">Noite</option>
           </select>
         </label>
         <label for="data-nas">
           Data de nascimento:
-          <input type="date" name="data-nas" class="ingresso__input">
+          <input type="date" name="data-nas" id="ingresso__data" class="ingresso__input" required>
         </label>
       </div>
+      <button type="submit" class="ingresso__botao" id="ingresso__botao">
+        <p>Avançar</p>
+        <img src="./assets/flecha.svg" alt="Avançar">
+      </button>
     </form>
-    <a href="ingresso2.html" class="ingresso__botao">
-      <p>Avançar</p>
-      <img src="./assets/flecha.svg" alt="Avançar">
-    </a>
 
   </main>
 
@@ -92,6 +91,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="js/main.js"></script>
 
 </body>
 
